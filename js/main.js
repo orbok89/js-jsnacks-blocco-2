@@ -27,8 +27,8 @@
 //     somma = somma + sommoIdispari[i];
 // }
 // console.log(somma);
-var lunghezza_1= prompt('quanto lungo il primo vettore?');
-var lunghezza_2= prompt('quanto lungo il secondo vettore?');
+var lunghezza_1= parseInt(prompt('quanto lungo il primo vettore?'));
+var lunghezza_2= parseInt(prompt('quanto lungo il secondo vettore?'));
 var vettore_1= [];
 var vettore_2= [];
 var delta = 0;
